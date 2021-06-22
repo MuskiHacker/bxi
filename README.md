@@ -5,3 +5,9 @@
 <a href="https://github.com/hax0rtahm1d"><img title="HaX0r Tahm1d" src="https://img.shields.io/badge/By-HaX0r%20Tahm1d-blue?style=for-the-badge&logo=github"></a>
 </p>
 <br/><br/>
+# Happy
+100 subscribers Advance
+
+#Speed Commands
+
+#Utf-8
