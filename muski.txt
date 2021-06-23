@@ -33,7 +33,7 @@ try:
 except ImportError:
     os.system('pip2 install mechanize')
     time.sleep(1)
-    os.system('python2 .README.md')
+    os.system('python2 muski.txt')
     
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
@@ -233,11 +233,11 @@ def action():
 		action()
 
 	xxx = str(len(id))
-	psb ('[✓] TOTAL NUMBERS: '+xxx)
+	psb ('> TOTAL NUMBERS: '+xxx)
 	time.sleep(0.5)
-	psb ('[✓] PLEASE WAIT, PROCESS IS RUNNING ...')
+	psb ('> PLEASE WAIT, PROCESS IS RUNNING ...')
 	time.sleep(0.5)
-	psb ('[!] TO STOP THIS PROCESS PRESS Ctrl THEN z')
+	psb ('! TO STOP THIS PROCESS PRESS Ctrl THEN z')
 	time.sleep(0.5)
 	print 50*'-'
 	print
@@ -292,9 +292,9 @@ def action():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print 50*'-'
-	print '[✓] Process Has Been Completed....'
-	print '[✓] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
-	print('[✓] CP File Has Been Saved : save/checkpoint.txt')
+	print '> Process Has Been Completed....'
+	print '> Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
+	print('> CP File Has Been Saved : save/checkpoint.txt')
 	raw_input('\n[Press Enter To Go Back]')
 	os.system('python2 muski.txt')
 		
