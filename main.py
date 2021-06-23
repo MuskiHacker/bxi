@@ -76,7 +76,7 @@ def p():
     print "\033[1;97mSECOND STEP OF LOGIN"
     print "\033[1;97m--------------------"
     print "\033[1;97m "
-    print("          \033[1;94mTOOL USERNAME : MASTER TRICK (correct)")
+    print("          \033[1;94mTOOL USERNAME : Muski Tools (correct)")
     pwd=raw_input("          \033[1;93mTOOL PASSWORD : ")
     if pwd == cpwd:
         z()
@@ -86,7 +86,7 @@ def p():
         print "\033[1;97mSECOND STEP OF LOGIN"
         print "\033[1;97m--------------------"
         print "\033[1;97m "
-        print("          \033[1;94mTOOL USERNAME : GAME OVER (correct)")
+        print("          \033[1;94mTOOL USERNAME : Muski Tools (correct)")
         print("          \033[1;93mTOOL PASSWORD : "+pwd+" (wrong)")
         time.sleep(1)
         os.system('xdg-open https://www.facebook.com/groups/231747098048450')
@@ -98,8 +98,8 @@ def z():
     print "\033[1;97mSECOND STEP OF LOGIN"
     print "\033[1;97m--------------------"
     print "\033[1;97m "
-    print("          \033[1;94mTOOL USERNAME : MASTER TRICK (correct)")
-    print("          \033[1;93mTOOL PASSWORD : SUBSCRIBE NOW (correct)")
+    print("          \033[1;94mTOOL USERNAME : Muski Tools (correct)")
+    print("          \033[1;93mTOOL PASSWORD : Muski Tools (correct)")
     print(" \033[1;92mLogin Successfull\033[0m")
     jalan("\033[1;93mPlease Wait 5 Minutes, All Packages Are Checking.....")
   
